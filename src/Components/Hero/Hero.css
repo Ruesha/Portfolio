@@ -40,9 +40,12 @@ img{
 }
 @media (max-width: 768px) {
     .herocontain {
-        padding: 20px; 
+    
         flex-direction: column; 
         gap: 20px; 
+       margin-left: 200px;
+    
+   
     }
 
     .herronote h1 {
