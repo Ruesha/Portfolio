@@ -1,4 +1,4 @@
-import Git from '../../assets/Git.svg';
+import Git from '../../assets/git.svg';
 import Twi from '../../assets/twitter.svg';
 import link from '../../assets/linkedin.svg';
 import { GiHamburgerMenu } from "react-icons/gi";
