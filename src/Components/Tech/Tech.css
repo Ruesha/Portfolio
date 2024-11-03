@@ -1,0 +1,44 @@
+.technote{
+    h2{
+        text-align: center;
+        color:#42446E;
+        font-size: 38px
+        ;
+    }
+    p{
+        text-align: center;
+        color: #666666;
+    }
+}
+.tech{
+  padding: 50px;
+}
+.riri{
+    width: 120px;
+}
+.techstack{
+   display: grid;
+   grid-template-columns: repeat(auto-fill,minmax(170px,1fr));
+   margin-top: 50px;
+   margin-left: 90px;
+  img{
+    margin-top: 50px;
+  }
+}
+@media (max-width: 1200px) {
+    .techstack {
+       margin-left: 20px; /* Reduce margin on smaller screens */
+    }
+ }
+ 
+ @media (max-width: 768px) {
+    .techstack {
+       grid-template-columns: repeat(auto-fill, minmax(80px, 1fr)); 
+       margin-left: 10px;
+       gap: 10px;
+       img{
+        width: 60px;
+        margin-right: 400px;
+       }
+    }
+ }
