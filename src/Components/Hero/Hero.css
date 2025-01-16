@@ -1,60 +1,69 @@
-.herocontain{
+.herocontain {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 60px;
-    margin-left: 130px;
+    margin: 0 auto; /* Center the container */
+    flex-wrap: wrap; /* Allow wrapping of child elements on smaller screens */
 }
-.img 
-{
-    width: 470px;
-img{
-    width: 300px;
+
+.img {
+    width: 100%; /* Allow the image to be responsive */
+    max-width: 470px; /* Ensure the image doesn't grow too large */
+}
+
+.img img {
+    width: 100%; /* Make the image responsive */
+    height: auto;
     border-radius: 50%;
-    height: 300px;
-    border: 1px solid transparent; 
+    border: 1px solid transparent;
     background: linear-gradient(180deg, #e70faa 0%, #00c0fd 100%);
-    padding: 5px; 
-    box-sizing: border-box; 
+    padding: 5px;
+    box-sizing: border-box;
     display: block;
 }
+
+.herronote {
+    width: 100%; /* Make the content responsive */
+    max-width: 590px; /* Ensure content doesn't stretch too far */
 }
-.herronote{
-    width: 590px;
-    h1{
-       font-weight: 900;
-       line-height: 70px;
-       font-size: 50px;
-       display: block;
-       
-    }
-    span{
-        display: block;
-    }
+
+.herronote h1 {
+    font-weight: 900;
+    line-height: 1.2;
+    font-size: 3em; /* Use relative font sizing */
+    display: block;
 }
-.now{
+
+.herronote span {
+    display: block;
+    font-size: 1.2em; /* Adjust for better readability */
+}
+
+.now {
     background: linear-gradient(62.8deg, #00C0FD 0%, #E70FAA 100%);
-    -webkit-background-clip:text;
-    -webkit-text-fill-color: transparent; 
-    color: transparent; 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
 }
+
 @media (max-width: 768px) {
     .herocontain {
-    
-        flex-direction: column; 
-        gap: 20px; 
-       margin-left: 200px;
-    
-   
+        flex-direction: column; /* Stack elements vertically on smaller screens */
+        gap: 20px;
+        padding: 20px; /* Reduce padding on smaller screens */
     }
 
     .herronote h1 {
-        font-size: 2em;
-        line-height: 1.2; 
+        font-size: 2em; /* Adjust font size for smaller screens */
+        line-height: 1.2;
     }
 
     .herronote span {
-        font-size: 1em; 
-        display: block; 
+        font-size: 1em;
+    }
+
+    .img {
+        max-width: 80%; /* Make the image more flexible on smaller screens */
     }
 }
