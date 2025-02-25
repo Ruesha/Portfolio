@@ -4,6 +4,9 @@
  import kuda from '../../assets/Kuda.png'
  import coolors from '../../assets/coolors.png'
  import  funiro from '../../assets/funiro.png'
+ import lectores from '../../assets/Lectores.png'
+ import luxedrive from '../../assets/Luxedrive.png'
+ import qmart from '../../assets/Qmart.png'
 import './Projects.css'
 const Projects = () => {
   return (
@@ -79,6 +82,42 @@ const Projects = () => {
         <img src={funiro} alt="" />
         <div className="innote">
             <h2>Funiro</h2>
+            <p>This project creates a web application using HTML, and CSS, focusing on the expert use of to make media responsiveness. It combines these technologies to deliver an interactive user experience with dynamic content.
+</p>
+        </div>
+        <div className="links">
+            <a href="https://furniro-eight-green.vercel.app/">Live Preview</a>
+            <a href="https://github.com/Ruesha/furniro">Github Repo</a>
+        </div>
+    </div>
+    <div className="init">
+        <img src={luxedrive} alt="" />
+        <div className="innote">
+            <h2>Luxedrive</h2>
+            <p>This project creates a web application using HTML, and CSS, focusing on the expert use of to make media responsiveness. It combines these technologies to deliver an interactive user experience with dynamic content.
+</p>
+        </div>
+        <div className="links">
+            <a href="https://furniro-eight-green.vercel.app/">Live Preview</a>
+            <a href="https://github.com/Ruesha/furniro">Github Repo</a>
+        </div>
+    </div>
+    <div className="init">
+        <img src={qmart} alt="" />
+        <div className="innote">
+            <h2>Qmart</h2>
+            <p>This project creates a web application using HTML, and CSS, focusing on the expert use of to make media responsiveness. It combines these technologies to deliver an interactive user experience with dynamic content.
+</p>
+        </div>
+        <div className="links">
+            <a href="https://furniro-eight-green.vercel.app/">Live Preview</a>
+            <a href="https://github.com/Ruesha/furniro">Github Repo</a>
+        </div>
+    </div>
+    <div className="init">
+        <img src={lectores} alt="" />
+        <div className="innote">
+            <h2>Lectores</h2>
             <p>This project creates a web application using HTML, and CSS, focusing on the expert use of to make media responsiveness. It combines these technologies to deliver an interactive user experience with dynamic content.
 </p>
         </div>

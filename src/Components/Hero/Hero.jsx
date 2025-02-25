@@ -1,4 +1,4 @@
-import Me from '../../assets/me.jpg'
+import Me from '../../assets/2A8A0470[1].jpg'
 import './Hero.css'
 const Hero = () => {
   return (
